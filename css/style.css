@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+p, span, a, ul, li, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.col-sm-7 .interface {
+    margin-left: 20%!important;
+}
+
+.interface_logo {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.ticket {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: green;
+    margin-top: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+.ticket:link {
+    text-decoration: none;
+    color: green;
+}
+
+.ticket:visited {
+    text-decoration: none;
+    color: green;
+}
+
+.ticket:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.ticket:active {
+    text-decoration: none;
+    color: green;
+}
+
+.logo {
+    position: fixed;
+    top: -30px;
+    left: -50px;
+    width: 300px;
+    height: 150px;
+}
+
+.text {
+    position: absolute;
+    bottom: 12px;
+    width: 92%;
+    height: 27%;
+    left: 28px;
+    border: none;
+    background-color: transparent;
+    font-size: 140px;
+    font-style: ;
+    text-transform: uppercase;
+}
